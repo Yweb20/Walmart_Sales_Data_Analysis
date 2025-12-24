@@ -8,9 +8,12 @@ This project is an end-to-end SQL-based data analysis solution built to extract 
 
 The objective is to demonstrate strong fundamentals in relational databases, SQL analytics, and business-oriented thinking, making this project ideal for aspiring Data Analysts and Associate Software roles that require hands-on SQL expertise.
 
+---
+
+
 Dataset
 
-Source: Kaggle – Walmart Sales Dataset
+Source: Kaggle – Walmart Sales Dataset(https://www.kaggle.com/datasets/najir0123/walmart-10k-sales-datasets)
 
 Access Method: Kaggle API
 
@@ -19,6 +22,10 @@ Data Type: Transaction-level retail sales data
 Storage: Imported directly into SQL database tables
 
 The dataset includes information such as branch, city, product category, quantity, unit price, payment method, ratings, date, and time.
+
+
+---
+
 
 Tools and Technologies
 
@@ -31,6 +38,8 @@ Environment: Visual Studio Code
 Data Source: Kaggle API
 
 Version Control: Git & GitHub
+
+---
 
 Project Steps
 1. Environment Setup
@@ -97,6 +106,8 @@ Organized SQL scripts for readability and reuse
 
 Published project on GitHub with structured README
 
+---
+
 Key Results and Insights
 
 Sales Performance: Identified top-performing branches and cities
@@ -109,11 +120,13 @@ Time-Based Trends: Found daily and monthly sales patterns useful for planning
 
 These insights can directly support inventory planning, pricing strategy, and operational optimization.
 
+---
+
 How to Run the Project
 
 Clone the repository:
 
-git clone <your-repo-url>
+git clone <https://github.com/Yweb20/Walmart_Sales_Data_Analysis>
 
 Set up MySQL database and create a new schema
 
@@ -125,10 +138,16 @@ Execute SQL scripts from the sql_queries/ folder
 
 Review query outputs and insights
 
+--
+
 Project Structure
 |-- data/              # Raw dataset files
 |-- sql_queries/       # SQL scripts for analysis
 |-- README.md          # Project documentation
+
+---
+
+
 License
 
 This project is licensed under the MIT License.
